@@ -96,9 +96,7 @@
 .carousel-item .item {
     display: flex;
     justify-content: center;
-    /* Centers children horizontally */
     align-items: center;
-    /* height: 30vh;  */
     background-size: cover;
     background-position: center;
 }
@@ -113,12 +111,14 @@
 .bannerText h1,
 .bannerText p {
     font-size: 2vw;
-    /* Example: Scale text size based on the viewport width */
 }
 
 .bannerText .shop-btn {
     padding: 1vw 2vw;
-    /* Adjust button padding based on viewport size */
+}
+.bannerText .shop-btn:hover {
+    background-color: var(--secondaryDark);
+    color: var(--primary);
 }
 
 
