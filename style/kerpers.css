@@ -36,11 +36,19 @@
     background-repeat: no-repeat;
   }
 
+  .kerperscaroussel{
+    height: 38vh;
+  }
+
   
   @media (max-width: 768px) {
     #PopularBrandsSlider .popular_brand_img,
     #PopularBrandsSlider .popular_brand_img.hideSmallScreen {
       flex: 0 1 33%; 
+    }
+
+    .kerperscaroussel{
+      height: 28vh;
     }
   }
   

@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="./style/ourStorybanner.css">
     <link rel="stylesheet" href="./style/footer.css">
     <link rel="stylesheet" href="./style/subFooter.css">
+    <link rel="stylesheet" href="./style/announcementBar.css">
     <link rel="stylesheet" href="./style/kerpers.css">
+
 
 
 </head>
@@ -157,7 +159,7 @@
                           <a class="nav-link" href="shop.html" id="navOptionFive"></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="archery.html" id="navOptionSix"></a>
+                          <a class="nav-link" href="archery.html" id="navOptionSix" style="color: #E3DFD7; text-decoration: underline;"></a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="shop.html" id="navOptionSeven"></a>
@@ -252,6 +254,18 @@
             </div>
         </nav>
 
+
+ <!-- ===============  Announcement Bar  ===================== -->
+
+ <section id="announcementBar">
+    <div class="announcement">
+        <p>Custom Site Announcement Message Here (This section can be hidden in cms)</p>
+
+    </div>
+</section>
+
+<!-- ===============  END OF Announcement Bar  ===================== -->
+
         <!-- ===============  Text with Slider  ===================== -->
 
         <div class="container" style="padding-bottom: 40px;">
@@ -281,16 +295,16 @@
                             <li data-target="#serviceCarousel" data-slide-to="3"></li>
                         </ol>
                         <div class="carousel-inner">
-                            <div class="carousel-item active" style="height: 38vh;">
+                            <div class="carousel-item active kerperscaroussel" >
                                 <img src="img/img001.png" class="d-block w-100" alt="Image 1">
                             </div>
-                            <div class="carousel-item" style="height: 38vh;">
+                            <div class="carousel-item kerperscaroussel" >
                                 <img src="img/img001.png" class="d-block w-100" alt="Image 2">
                             </div>
-                            <div class="carousel-item" style="height: 38vh;">
+                            <div class="carousel-item kerperscaroussel" >
                                 <img src="img/img001.png" class="d-block w-100" alt="Image 2">
                             </div>
-                            <div class="carousel-item" style="height: 38vh;">
+                            <div class="carousel-item kerperscaroussel" style="height: 38vh;">
                                 <img src="img/img001.png" class="d-block w-100" alt="Image 2">
                             </div>
                         </div>
@@ -407,63 +421,64 @@
 
 
 
-        <!-- ========================= Footer ===================== -->
-        <footer class="footer">
-            <div class="container">
-                <div class="d-flex justify-content-between footer-flex-container">
-                    <div class="footer-column">
-                        <img src="img/header-logo.png" alt="Kerper's Gun Shop" class="footer-logo">
-                    </div>
+         <!-- ========================= Footer ===================== -->
+   <footer class="footer">
+    <div class="container">
+      <div class="d-flex justify-content-between footer-flex-container">
+        <div class="footer-column">
+          <img src="img/header-logo.png" alt="Kerper's Gun Shop" class="footer-logo"> 
+        </div>
+   
+        <div class="footer-column">
+          <h5 id="FirstColumnTitle"></h5>
+          <p id="street"></p>
+          <p id="city"></p>
+            <p id="country"></p>
+            <p id="phone"></p>
+          <button class="footer-contact-btn" id="">Contact Us</button>        </div>
+        <div class="footer-column">
+          <h5 id="SecondColumnTitle"></h5>
+          <nav class="nav flex-column">
+            <a class="nav-link" href="/index.html" id="NavOne"></a>
+            <a class="nav-link" href="/services.html" id="NavTwo"></a>
+            <a class="nav-link" href="/ccforwomen.html" id="NavThree"></a>
+            <a class="nav-link" href="/shop" id="NavFour"></a>
+            <a class="nav-link" href="/shop" id="NavFive"></a>
+            <a class="nav-link" href="/shop" id="NavSix"></a>
+          </nav>
+        </div>
+        <div class="footer-column">
+          <h5 id="ThirdColumnTitle"></h5>
+          <p id="ThirdColumnTextOne"></p>
+            <p id="ThirdColumnTextTwo"></p>
+            <p id="ThirdColumnTextThree"></p><br/>
+            <p id="ThirdColumnTextFour"></p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-                    <div class="footer-column">
-                        <h5 id="FirstColumnTitle"></h5>
-                        <p id="street"></p>
-                        <p id="country"></p>
-                        <p id="phone"></p>
-                        <button class="footer-contact-btn" id="">Contact Us</button>
-                    </div>
-                    <div class="footer-column">
-                        <h5 id="SecondColumnTitle"></h5>
-                        <nav class="nav flex-column">
-                            <a class="nav-link" href="#" id="NavOne"></a>
-                            <a class="nav-link" href="#" id="NavTwo"></a>
-                            <a class="nav-link" href="#" id="NavThree"></a>
-                            <a class="nav-link" href="#" id="NavFour"></a>
-                            <a class="nav-link" href="#" id="NavFive"></a>
-                            <a class="nav-link" href="#" id="NavSix"></a>
-                        </nav>
-                    </div>
-                    <div class="footer-column">
-                        <h5 id="ThirdColumnTitle"></h5>
-                        <p id="ThirdColumnTextOne"></p>
-                        <p id="ThirdColumnTextTwo"></p>
-                        <p id="ThirdColumnTextThree"></p>
-                        <p id="ThirdColumnTextFour"></p>
-                    </div>
-                </div>
+   <!-- ========================= END OF Footer ===================== -->
+
+      <!-- ========================= SubFooter ===================== -->
+
+      <footer class="subfooter">
+        <div class="container">
+          <div class="subfooter-container">
+            <div class="subfooter-text">
+              ©2024 Designed by Orchid
             </div>
-        </footer>
-
-        <!-- ========================= END OF Footer ===================== -->
-
-        <!-- ========================= SubFooter ===================== -->
-
-        <footer class="subfooter">
-            <div class="container">
-                <div class="subfooter-container">
-                    <div class="subfooter-text">
-                        ©2024 Designed by Orchid
-                    </div>
-                    <div class="social-links">
-                        <!-- Replace `i` elements with actual icons from your icon library -->
-                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                    </div>
-                </div>
+            <div class="social-links">
+              <!-- Replace `i` elements with actual icons from your icon library -->
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-youtube" aria-hidden="true"></i>
             </div>
-        </footer>
-        <!-- ========================= END OF SubFooter ===================== -->
+          </div>
+        </div>
+      </footer>
+      <!-- ========================= END OF SubFooter ===================== -->
 
 
 

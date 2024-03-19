@@ -78,16 +78,21 @@
       margin: 0 10px;
     }
     #reviewWithPicture  .testimonial-card {
-    flex-direction: column; /* Stack image and text on smaller screens */
+    flex-direction: column; 
+    margin-bottom: 8px;
   }
 
   #reviewWithPicture  .testimonial-image {
     margin-right: 0;
-    margin-bottom: 1rem; /* Space between image and text on smaller screens */
+    margin-bottom: 1rem; 
   }
 
   #reviewWithPicture  .quote-image {
     top: 0;
-    right: 0; /* Adjust position for smaller screens if necessary */
+    right: 0; 
+  }
+
+  #reviewWithPictureTitle{
+    font-size: 1.5rem;
   }
   }
