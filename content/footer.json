@@ -1,9 +1,10 @@
 {
     "FirstColumnTitle": "CONTACT INFO",
-    "street": "Address 1",
-    "city":"City, State, ZIP",
+    "street": "1167 Reading Rd",
+    "city":"Narvon, PA 17555",
     "country": "United States",
-    "phone": "(123) 456-7890",
+    "phone": "(717) 445-5831",
+    "email": "kerpers@hotmail.com",
     "SecondColumnTitle": "QUICK LINKS",
     "NavOne": "Home",
     "NavTwo": "Services",
@@ -12,10 +13,10 @@
     "NavFive": "Archery",
     "NavSix": "Bow",
     "ThirdColumnTitle": "STORE HOURS",
-    "ThirdColumnTextOne": "[Please send store hours]",
-    "ThirdColumnTextTwo": "Monday - Saturday",
-    "ThirdColumnTextThree": "10am - 6pm",
-    "ThirdColumnTextFour": "Closed on Sunday"
+    "ThirdColumnTextOne": "Tue, Thurs, Fri: 1pm-8pm",
+    "ThirdColumnTextTwo": "Wed, Sat: 12pm-5pm",
+    "ThirdColumnTextThree": "",
+    "ThirdColumnTextFour": ""
 }
 
 

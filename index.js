@@ -118,6 +118,7 @@ fetch('content/footer.json')
   document.getElementById('country').textContent = data.country;
   document.getElementById('city').textContent = data.city;
   document.getElementById('phone').textContent = data.phone;
+  document.getElementById('email').textContent = data.email;
   document.getElementById('SecondColumnTitle').textContent = data.SecondColumnTitle;
   document.getElementById('NavOne').textContent = data.NavOne;
   document.getElementById('NavTwo').textContent = data.NavTwo;
