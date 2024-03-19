@@ -1,0 +1,119 @@
+:root {
+    --primary: #738578;
+    --primaryDark: #506A68;
+    --primaryLight: #EEE2D8;
+    --secondary: #D99A56;
+    --secondaryDark:#D99A56;
+    --secondaryLight: #E3DFD7;
+    --gray900: #212529;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* System classes:
+-cart 
+-cartWidgetInner 
+
+*/
+
+
+/* !!!!!!!!!General classes!!!!!!!!! */
+.hide{
+    display: none;
+}
+
+/* Text colors */
+.text-color-primary{
+    color: var(--primary);
+}
+.text-color-primaryDark{
+    color: var(--primaryDark);
+}
+.text-color-primaryLight{
+    color: var(--primaryLight);
+}
+.text-color-secondary{
+    color: var(--secondary);
+}
+.text-color-secondaryDark{
+    color: var(--secondaryDark);
+}
+.text-color-secondaryLight{
+    color: var(--secondaryLight);
+}
+.text-color-gray900{
+    color: var(--gray900);
+}
+
+/* Background colors */
+.background-color-primary{
+    background-color: var(--primary);
+}
+.background-color-primaryDark{
+    background-color: var(--primaryDark);
+}
+.background-color-primaryLight{
+    background-color: var(--primaryLight);
+}
+.background-color-secondary{
+    background-color: var(--secondary);
+}
+.background-color-secondaryDark{
+    background-color: var(--secondaryDark);
+}
+.background-color-secondaryLight{
+    background-color: var(--secondaryLight);
+}
+.background-color-gray900{
+    background-color: var(--gray900);
+}
+
+#Threeimagesverticaltextandbutton .foundation-header {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.service-card {
+  margin-bottom: 2rem;
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+.btn-primary {
+  background-color: var(--primaryDark);
+  border-color: var(--primaryDark);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondaryDark);
+  border-color: var(--secondaryDark);
+}
+
+

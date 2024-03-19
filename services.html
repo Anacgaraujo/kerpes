@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Website</title>
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/footer.css">
+  <link rel="stylesheet" href="./style/subFooter.css">
+  <link rel="stylesheet" href="./style/announcementBar.css">
+  <link rel="stylesheet" href="./style/textWithSlider.css">
+  <link rel="stylesheet" href="./style/gridModelOne.css">
+  <link rel="stylesheet" href="./style/fourSquaresProps.css">
+  <link rel="stylesheet" href="./style/reviewWithPictures.css">
+
+
+</head>
+
+<body>
+  <main>
+
+    <!-- Secondary Header -->
+
+    <div class="secondaryHeader">
+      <div class="hours">
+        <p id="hours"></p>
+      </div>
+      <div class="phone">
+        <p id="phone"></p>
+      </div>
+      <div class="socials">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </div>
+      <div class="accountwrapper">
+        <div class="account dropdown ">
+          <a class="dropdown-toggle text-color-gray900 pr-2" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My Account
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#myModal">Register <span><i
+                  class="fa fa-edit"></i></span></a>
+            <a class="dropdown-item" href="#">Login <span><i class="fa fa-lock"></i></span></a>
+          </div>
+        </div>
+        <div class="account dropdown "> <!-- Big Screen only -->
+          <a class="dropdown-toggle text-color-gray900" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cart
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul class="submenu product_list_widget text-left">
+              <!-- .product item -->
+              <li>
+                <a href="#" class="thumb">
+                  <imgclass="submenuimg" src="img/product-1.png" alt="">
+                </a>
+                <div class="pdDesc">
+                  <a href="#">Cool Item 1</a>
+                  <a href="#" class="remove">x</a>
+                  <div class="variation">
+                    <strong>Size :</strong> <span>Small</span>
+                  </div>
+                  <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="thumb">
+                  <img src="img/product-1.png" alt="">
+                </a>
+                <div class="pdDesc">
+                  <a href="#">Cool Item 1</a>
+                  <a href="#" class="remove">x</a>
+                  <div class="variation">
+                    <strong>Size :</strong> <span>Small</span>
+                  </div>
+                  <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="thumb">
+                  <img src="img/product-1.png" alt="">
+                </a>
+                <div class="pdDesc">
+                  <a href="#">Cool Item 1</a>
+                  <a href="#" class="remove">x</a>
+                  <div class="variation">
+                    <strong>Size :</strong> <span>Small</span>
+                  </div>
+                  <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                </div>
+              </li>
+              <!-- // .product item -->
+              <!-- .product item -->
+
+
+              <!-- // product list -->
+              <li class="total">
+                <span>Subtotal: </span>
+                <span class="amount">&nbsp;$1875.00</span>
+              </li>
+              <li class="buttons ">
+                <a href="#" class="btn btn-gold-border background-color-primaryLight">View Cart</a>
+                <a href="#" class="btn btn-gold-border background-color-primaryLight">Checkout</a>
+              </li>
+              <!-- // .product item -->
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <!-- ===============  Main Menu  ===================== -->
+    <nav class="navbar navbar-expand-lg  background-color-primaryDark ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/header-logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <!-- Left nav -->
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" id="navOptionOne"> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionTwo"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionThree"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ccforwomen.html" id="navOptionFour"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionFive"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="archery.html" id="navOptionSix"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionSeven"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html" id="navOptionEight"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" id="navOptionNine"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" id="navOptionTen"></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="" class="nav-link" data-toggle="modal" data-target="#searchModal"><i
+                  class="fa fa-search"></i></a>
+            </li>
+          </ul>
+
+          <!-- Small sreen only -->
+          <div class="account dropdown d-lg-none">
+            <a class="dropdown-toggle text-color-gray900" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Cart
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <ul class="submenu product_list_widget text-left">
+                <!-- .product item -->
+                <li>
+                  <a href="#" class="thumb">
+                    <imgclass="submenuimg" src="img/product-1.png" alt="">
+                  </a>
+                  <div class="pdDesc">
+                    <a href="#">Cool Item 1</a>
+                    <a href="#" class="remove">x</a>
+                    <div class="variation">
+                      <strong>Size :</strong> <span>Small</span>
+                    </div>
+                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="thumb">
+                    <img src="img/product-1.png" alt="">
+                  </a>
+                  <div class="pdDesc">
+                    <a href="#">Cool Item 1</a>
+                    <a href="#" class="remove">x</a>
+                    <div class="variation">
+                      <strong>Size :</strong> <span>Small</span>
+                    </div>
+                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="thumb">
+                    <img src="img/product-1.png" alt="">
+                  </a>
+                  <div class="pdDesc">
+                    <a href="#">Cool Item 1</a>
+                    <a href="#" class="remove">x</a>
+                    <div class="variation">
+                      <strong>Size :</strong> <span>Small</span>
+                    </div>
+                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                  </div>
+                </li>
+                <!-- // .product item -->
+                <!-- .product item -->
+
+
+                <!-- // product list -->
+                <li class="total">
+                  <span>Subtotal: </span>
+                  <span class="amount">&nbsp;$1875.00</span>
+                </li>
+                <li class="buttons ">
+                  <a href="#" class="btn btn-gold-border background-color-primaryLight">View Cart</a>
+                  <a href="#" class="btn btn-gold-border background-color-primaryLight">Checkout</a>
+                </li>
+                <!-- // .product item -->
+              </ul>
+            </div>
+          </div>
+          <!-- END OF Small sreen only -->
+
+
+        </div>
+      </div>
+    </nav>
+
+ <!-- ===============  END OF Main Menu  ===================== -->
+
+
+ <!-- ===============  Announcement Bar  ===================== -->
+
+    <section id="announcementBar">
+        <div class="announcement">
+            <p>Custom Site Announcement Message Here (This section can be hidden in cms)</p>
+
+        </div>
+    </section>
+    
+ <!-- ===============  END OF Announcement Bar  ===================== -->
+
+ <!-- ===============  Text with Slider  ===================== -->
+
+ <div class="container">
+    <div class="service-section">
+      <div class="service-content">
+        <h2 id="serviceTitle"></h2>
+        <p id="serviceText"></p>
+      </div>
+      <div class="service-slider">
+        <!-- Bootstrap Carousel -->
+        <div id="serviceCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#serviceCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#serviceCarousel" data-slide-to="1"></li>
+            <li data-target="#serviceCarousel" data-slide-to="2"></li>
+            <li data-target="#serviceCarousel" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/image001.png" class="d-block w-100" alt="Image 1"> 
+            </div>
+            <div class="carousel-item">
+              <img src="img/image001.png" class="d-block w-100" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/image001.png" class="d-block w-100" alt="Image 2"> 
+            </div>
+            <div class="carousel-item">
+              <img src="img/image001.png" class="d-block w-100" alt="Image 2"> 
+            </div>
+          </div>
+        </div>
+        <!-- End of Bootstrap Carousel -->
+      </div>
+    </div>
+  </div>
+
+
+ <!-- =============== END OF Text with Slider  ===================== -->
+
+
+
+
+ <!-- =============== Grid Model One ===================== -->
+
+ <section id="gridModelOne">
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-2 px-2">
+          <div class="service-card">
+            <img src="img/s1.png" alt="Gunsmithing">
+            <div class="service-card-body">
+                <div class="service-title" id="TitleOne"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-2 px-2">
+            <div class="service-card">
+              <img src="img/s2.png" alt="Cleaning">
+              <div class="service-card-body">
+                <div class="service-title" id="TitleTwo"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-2 px-2">
+            <div class="service-card">
+              <img src="img/s3.png" alt="Cleaning">
+              <div class="service-card-body">
+                <div class="service-title" id="TitleThree"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-2 px-2">
+            <div class="service-card">
+              <img src="img/s4.png" alt="Cleaning">
+              <div class="service-card-body">
+                <div class="service-title" id="TitleFour"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-2 px-2">
+            <div class="service-card">
+              <img src="img/s5.png" alt="Cleaning">
+              <div class="service-card-body">
+                <div class="service-title" id="TitleFive"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-2 px-2">
+            <div class="service-card">
+              <img src="img/s6.png" alt="Cleaning">
+              <div class="service-card-body">
+                <div class="service-title" id="TitleSix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ </section>
+ <!-- =============== END OF TeGrid Model One ===================== -->
+
+ <!-- =============== Four Squares Props ===================== -->
+
+
+ <section class="value-prop-section">
+    <div class="container">
+        <h2 class="text-center mb-4 section-title" id="FourSquaresPropsTitle"></h2>
+              <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="value-prop">
+            <img src="img/GunVector.png" alt="Value Proposition 1">
+            <h3 class="value-prop-title" id="valueproptitleone"></h3>
+            <p class="value-prop-text" id="valueproptextone"></p>
+            <a href="#" class="btn-primary" id="btnone"></a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="value-prop">
+            <img src="img/DefenseVector.png" alt="Value Proposition 1">
+            <h3 class="value-prop-title" id="valueproptitletwo"></h3>
+            <p class="value-prop-text" id="valueproptexttwo"></p>
+            <a href="#" class="btn-primary" id="btntwo"></a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="value-prop">
+            <img src="img/StarVector.png" alt="Value Proposition 1">
+            <h3 class="value-prop-title" id="valueproptitlethree"></h3>
+            <p class="value-prop-text" id="valueproptextthree"></p>
+            <a href="#" class="btn-primary" id="btnthree"></a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="value-prop">
+            <img src="img/AimVector.png" alt="Value Proposition 1">
+            <h3 class="value-prop-title" id="valueproptitlefour"></h3>
+            <p class="value-prop-text" id="valueproptextfour"></p>
+            <a href="#" class="btn-primary" id="btnfour"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ <!-- =============== END OF Four Squares Props ===================== -->
+
+
+ <!-- =============== Review With Pictures ===================== -->
+
+ <section id="reviewWithPicture">
+
+ <div class="testimonials-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="testimonial-title">
+            <h2 id="reviewWithPictureTitle"></h2>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="testimonial-card d-flex">
+                <img class="testimonial-image" src="img/guyOne.png" alt="Customer Darren Y."> 
+                <div class="testimonial-content">
+                  <img src="img/QuoteVector.png" alt="Quote" class="quote-image"> 
+                  <h5 id="customerOne"></h5>
+                  <p class="testimonial-text" id="testimonialOne"></p>
+                </div>
+              </div>
+              
+              
+        </div>
+        <div class="col-md-4">
+            <div class="testimonial-card d-flex">
+                <img class="testimonial-image" src="img/guyTwo.png" alt="Customer Darren Y."> 
+                <div class="testimonial-content">
+                  <img src="img/QuoteVector.png" alt="Quote" class="quote-image"> 
+                  <h5 id="customerTwo"></h5>
+                  <p class="testimonial-text" id="testimonialTwo"></p>
+                </div>
+              </div>
+              
+        </div>
+        <div class="col-md-4">
+            <div class="testimonial-card d-flex">
+                <img class="testimonial-image" src="img/guyThree.png" alt="Customer Darren Y."> 
+                <div class="testimonial-content">
+                  <img src="img/QuoteVector.png" alt="Quote" class="quote-image"> 
+                  <h5 id="customerThree"></h5>
+                  <p class="testimonial-text" id="testimonialThree"></p>
+                </div>
+              </div>
+              
+        </div>
+        <!-- Repeat for the other testimonials -->
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- =============== END OF Review With Pictures ===================== -->
+
+
+
+   <!-- ========================= Footer ===================== -->
+   <footer class="footer">
+    <div class="container">
+      <div class="d-flex justify-content-between footer-flex-container">
+        <div class="footer-column">
+          <img src="img/header-logo.png" alt="Kerper's Gun Shop" class="footer-logo"> 
+        </div>
+   
+        <div class="footer-column">
+          <h5 id="FirstColumnTitle"></h5>
+          <p id="street"></p>
+            <p id="country"></p>
+            <p id="phone"></p>
+          <button class="footer-contact-btn" id="">Contact Us</button>        </div>
+        <div class="footer-column">
+          <h5 id="SecondColumnTitle"></h5>
+          <nav class="nav flex-column">
+            <a class="nav-link" href="#" id="NavOne"></a>
+            <a class="nav-link" href="#" id="NavTwo"></a>
+            <a class="nav-link" href="#" id="NavThree"></a>
+            <a class="nav-link" href="#" id="NavFour"></a>
+            <a class="nav-link" href="#" id="NavFive"></a>
+            <a class="nav-link" href="#" id="NavSix"></a>
+          </nav>
+        </div>
+        <div class="footer-column">
+          <h5 id="ThirdColumnTitle"></h5>
+          <p id="ThirdColumnTextOne"></p>
+            <p id="ThirdColumnTextTwo"></p>
+            <p id="ThirdColumnTextThree"></p>
+            <p id="ThirdColumnTextFour"></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+   <!-- ========================= END OF Footer ===================== -->
+
+      <!-- ========================= SubFooter ===================== -->
+
+      <footer class="subfooter">
+        <div class="container">
+          <div class="subfooter-container">
+            <div class="subfooter-text">
+              ©2024 Designed by Orchid
+            </div>
+            <div class="social-links">
+              <!-- Replace `i` elements with actual icons from your icon library -->
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ========================= END OF SubFooter ===================== -->
+
+
+
+  </main>
+
+
+  <script src="index.js"></script>
+  <script src="popularBrandsSliderimages are withing the arrows.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,51 @@
+
+
+:root {
+    --primary: #738578;
+    --primaryDark: #506A68;
+    --primaryLight: #EEE2D8;
+    --secondary: #D99A56;
+    --secondaryDark: #D99A56;
+    --secondaryLight: #E3DFD7;
+    --gray900: #212529;
+}
+
+#gridModelOne {
+    padding-top: 8vh;
+}
+
+#gridModelOne .service-card {
+    margin-bottom: 1rem; /* This ensures a margin at the bottom of each card */
+  }
+  
+  #gridModelOne .service-card img {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes bottom space due to inline nature of images */
+    margin-bottom: 0.5rem; /* Adds a margin at the bottom of the image */
+  }
+
+  #gridModelOne .service-title{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--primaryDark);
+  }
+
+  
+  #gridModelOne .row {
+    margin-left: -15px; /* Adjust this value to increase or decrease the gap size */
+    margin-right: -15px; /* Adjust this value to increase or decrease the gap size */
+  }
+  
+  #gridModelOne .col-md-4, #gridModelOne .col-sm-6 {
+    padding-left: 15px; /* Adjust this value to increase or decrease the gap size */
+    padding-right: 15px; /* Adjust this value to increase or decrease the gap size */
+  }
+  
+  @media (max-width: 768px) {
+    #gridModelOne .service-card {
+      margin-bottom: 1.5rem; /* Increase bottom margin on smaller screens if desired */
+    }
+  }
+  

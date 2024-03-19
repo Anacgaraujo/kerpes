@@ -1,0 +1,21 @@
+{
+    "FirstColumnTitle": "CONTACT INFO",
+    "street": "Address 1",
+    "city":"City, State, ZIP",
+    "country": "United States",
+    "phone": "(123) 456-7890",
+    "SecondColumnTitle": "QUICK LINKS",
+    "NavOne": "Home",
+    "NavTwo": "Services",
+    "NavThree": "C.C. for women",
+    "NavFour": "Ammo",
+    "NavFive": "Archery",
+    "NavSix": "Bow",
+    "ThirdColumnTitle": "STORE HOURS",
+    "ThirdColumnTextOne": "[Please send store hours]",
+    "ThirdColumnTextTwo": "Monday - Saturday",
+    "ThirdColumnTextThree": "10am - 6pm",
+    "ThirdColumnTextFour": "Closed on Sunday"
+}
+
+

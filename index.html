@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Website</title>
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/slider.css">
+  <link rel="stylesheet" href="./style/threeimagesVerticalTextButton.css">
+  <link rel="stylesheet" href="./style/imageBackgroundWithButtonsOver.css">
+  <link rel="stylesheet" href="./style/liveinventory.css">
+  <link rel="stylesheet" href="./style/popularBrands.css">
+  <link rel="stylesheet" href="./style/popularBrandsSlider.css">
+  <link rel="stylesheet" href="./style/ourStorybanner.css">
+  <link rel="stylesheet" href="./style/reviewsNoPictures.css">
+  <link rel="stylesheet" href="./style/mailingSignUpForm.css">
+  <link rel="stylesheet" href="./style/footer.css">
+  <link rel="stylesheet" href="./style/subFooter.css">
+
+
+</head>
+
+<body>
+  <main>
+
+    <!-- Secondary Header -->
+
+    <div class="secondaryHeader">
+      <div class="hours">
+        <p id="hours"></p>
+      </div>
+      <div class="phone">
+        <p id="phone"></p>
+      </div>
+      <div class="socials">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </div>
+      <div class="accountwrapper">
+        <div class="account dropdown ">
+          <a class="dropdown-toggle text-color-gray900 pr-2" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My Account
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#myModal">Register <span><i
+                  class="fa fa-edit"></i></span></a>
+            <a class="dropdown-item" href="#">Login <span><i class="fa fa-lock"></i></span></a>
+          </div>
+        </div>
+        <div class="account dropdown "> <!-- Big Screen only -->
+          <a class="dropdown-toggle text-color-gray900" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul class="submenu product_list_widget text-left">
+              <!-- .product item -->
+              <li>
+                <a href="#" class="thumb">
+                  <imgclass="submenuimg" src="img/product-1.png" alt="">
+                </a>
+                <div class="pdDesc">
+                  <a href="#">Cool Item 1</a>
+                  <a href="#" class="remove">x</a>
+                  <div class="variation">
+                    <strong>Size :</strong> <span>Small</span>
+                  </div>
+                  <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="thumb">
+                  <img src="img/product-1.png" alt="">
+                </a>
+                <div class="pdDesc">
+                  <a href="#">Cool Item 1</a>
+                  <a href="#" class="remove">x</a>
+                  <div class="variation">
+                    <strong>Size :</strong> <span>Small</span>
+                  </div>
+                  <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="thumb">
+                  <img src="img/product-1.png" alt="">
+                </a>
+                <div class="pdDesc">
+                  <a href="#">Cool Item 1</a>
+                  <a href="#" class="remove">x</a>
+                  <div class="variation">
+                    <strong>Size :</strong> <span>Small</span>
+                  </div>
+                  <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                </div>
+              </li>
+              <!-- // .product item -->
+              <!-- .product item -->
+
+
+              <!-- // product list -->
+              <li class="total">
+                <span>Subtotal: </span>
+                <span class="amount">&nbsp;$1875.00</span>
+              </li>
+              <li class="buttons ">
+                <a href="#" class="btn btn-gold-border background-color-primaryLight">View Cart</a>
+                <a href="#" class="btn btn-gold-border background-color-primaryLight">Checkout</a>
+              </li>
+              <!-- // .product item -->
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <!-- ===============  Main Menu  ===================== -->
+    <nav class="navbar navbar-expand-lg  background-color-primaryDark ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/header-logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <!-- Left nav -->
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item ">
+              <a class="nav-link selected" href="index.html" id="navOptionOne" style="color: #E3DFD7; text-decoration: underline;"> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionTwo"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionThree"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ccforwomen.html" id="navOptionFour"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionFive"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="archery.html" id="navOptionSix"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionSeven"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html" id="navOptionEight"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" id="navOptionNine"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" id="navOptionTen"></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="" class="nav-link" data-toggle="modal" data-target="#searchModal"><i
+                  class="fa fa-search"></i></a>
+            </li>
+          </ul>
+
+          <!-- Small sreen only -->
+          <div class="account dropdown d-lg-none">
+            <a class="dropdown-toggle text-color-gray900" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Cart
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <ul class="submenu product_list_widget text-left">
+                <!-- .product item -->
+                <li>
+                  <a href="#" class="thumb">
+                    <imgclass="submenuimg" src="img/product-1.png" alt="">
+                  </a>
+                  <div class="pdDesc">
+                    <a href="#">Cool Item 1</a>
+                    <a href="#" class="remove">x</a>
+                    <div class="variation">
+                      <strong>Size :</strong> <span>Small</span>
+                    </div>
+                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="thumb">
+                    <img src="img/product-1.png" alt="">
+                  </a>
+                  <div class="pdDesc">
+                    <a href="#">Cool Item 1</a>
+                    <a href="#" class="remove">x</a>
+                    <div class="variation">
+                      <strong>Size :</strong> <span>Small</span>
+                    </div>
+                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="thumb">
+                    <img src="img/product-1.png" alt="">
+                  </a>
+                  <div class="pdDesc">
+                    <a href="#">Cool Item 1</a>
+                    <a href="#" class="remove">x</a>
+                    <div class="variation">
+                      <strong>Size :</strong> <span>Small</span>
+                    </div>
+                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                  </div>
+                </li>
+                <!-- // .product item -->
+                <!-- .product item -->
+
+
+                <!-- // product list -->
+                <li class="total">
+                  <span>Subtotal: </span>
+                  <span class="amount">&nbsp;$1875.00</span>
+                </li>
+                <li class="buttons ">
+                  <a href="#" class="btn btn-gold-border background-color-primaryLight">View Cart</a>
+                  <a href="#" class="btn btn-gold-border background-color-primaryLight">Checkout</a>
+                </li>
+                <!-- // .product item -->
+              </ul>
+            </div>
+          </div>
+          <!-- END OF Small sreen only -->
+
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================== Header Carousel =================== -->
+    <div id="slider" class="carousel slide slider-wrapper college-slide relative overflow-hidden slide-overlay clb"
+      data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#slider" data-slide-to="0" class="active"></li>
+        <li data-target="#slider" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="item" style="background-image: url(img/home-bnnr-img.png)">
+            <div class="container">
+              <div class="bannerText">
+                <h1 class="text-color-primaryLight" id="businessname"></h1>
+                <p id="sliderCall" class="text-color-secondaryLight"> Lorem ipsum dolor sit amet consectetur. Orci
+                  adipiscing fermentum diam accumsan orci pharetra mi. Magna nibh tristique ullamcorper eget ut.
+                </p>
+                <a href="" class="shop-btn">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="item" style="background-image: url(img/home-bnnr-img.png)">
+            <div class="container">
+              <div class="bannerText">
+                <h1 class="text-color-primaryLight" id="businessnameTwo"></h1>
+                <p class="text-color-secondaryLight">Lorem ipsum dolor sit amet consectetur. Orci adipiscing fermentum
+                  diam accumsan orci pharetra mi. Magna nibh tristique ullamcorper eget ut. </p>
+                <a href="" class="shop-btn">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev hide " href="#slider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next hide" href="#slider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- =============== Three images vertical text and button =======================  -->
+
+    <div id="Threeimagesverticaltextandbutton" class="container">
+      <div class="row">
+        <div class="col-12 foundation-header">
+          <h1 id="titleThree"></h1>
+        </div>
+      </div>
+
+      <div class="row service-section">
+        <div class="col-12 col-md-4 service-card">
+          <img src="img/higheststandarts.png" alt="Highest Standards" class="service-image">
+          <div class="card-body">
+            <h2 class="card-title" id="cardTitleLeft"></h2>
+            <p id="cardTextLeft" class="card-text"></p>
+            <a href="#" class="btn btn-primary hide"></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 service-card">
+          <img src="img/firsttimebuyers.png" alt="First Time Buyers Support" class="service-image">
+          <div class="card-body">
+            <h2 id="cadrTitleMiddle" class="card-title"></h2>
+            <p id="cardTextMiddle" class="card-text"></p>
+            <a id="cardButtonMiddle" href="#" class="btn btn-primary"></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 service-card">
+          <img src="img/indoorrange.png" alt="Indoor Range" class="service-image">
+          <div class="card-body">
+            <h2 id="cardTitleRight" class="card-title"></h2>
+            <p id="cardTextRight" class="card-text"></p>
+            <a id="cardButtonRight" href="#" class="btn btn-primary"></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- =============== END Three images with text and button =======================  -->
+
+
+    <!-- =============== Image Background with buttons over ======================= -->
+
+    <div class="imageBackgroundWithButtonsOverWrapper">
+      <img src="img/imageBackgroundWithButtonsOver.png" alt="Background" class="bg-image">
+      <div class="menu-overlay">
+        <div class="menu-item">FIREARMS</div>
+        <div class="menu-item">C.C. FOR WOMEN</div>
+        <div class="menu-item">AMMUNITION</div>
+        <div class="menu-item">ARCHERY AT KERPER'S</div>
+        <div class="menu-item">BOW</div>
+        <div class="menu-item">GUNSMITHING</div>
+        <div class="menu-item">CLEANING</div>
+      </div>
+    </div>
+    </div>
+
+
+
+    <!-- =============== END Image Background with buttons over ======================= -->
+
+
+
+
+
+    <!-- ======== LIVE INVENTORY FEED ============= -->
+    <section id="liveinventory" class="product-wrapper pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="mb-4">AVAILABLE INVENTORY</h2>
+        <div class="d-flex flex-row justify-content-center mb-3">
+          <button class="btn  active mr-2">ALL</button>
+          <button class="btn mr-2">PRODUCT GROUP #1</button>
+          <button class="btn mr-2">PRODUCT GROUP #2</button>
+          <button class="btn mr-2">PRODUCT GROUP #3</button>
+          <button class="btn  mr-2">PRODUCT GROUP #4</button>
+          <button class="btn mr-2">PRODUCT GROUP #5</button>
+          <button class="btn ">PRODUCT GROUP #6</button>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="img/gun-img.png" alt="Product Image">
+              <div class="card-body">
+                <h5 class="card-title">SMITH & WESSON</h5>
+                <div class="card-text-wrapper">
+                  <p class="card-text">Mfg: </p>
+                  <p class="card-text"> Smith & Wesson</p>
+                </div> 
+                <div class="card-text-wrapper">              
+                <p class="card-text">Price:</p>
+                <p class="card-text price">$600.00</p>
+              </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="img/gun-img.png" alt="Product Image">
+              <div class="card-body">
+                <h5 class="card-title">SMITH & WESSON</h5>
+                <div class="card-text-wrapper">
+                  <p class="card-text">Mfg: </p>
+                  <p class="card-text"> Smith & Wesson</p>
+                </div>                
+                
+                <div class="card-text-wrapper">              
+                  <p class="card-text">Price:</p>
+                  <p class="card-text price">$600.00</p>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="img/gun-img.png" alt="Product Image">
+              <div class="card-body">
+                <h5 class="card-title">SMITH & WESSON</h5>
+                <div class="card-text-wrapper">
+                  <p class="card-text">Mfg: </p>
+                  <p class="card-text "> Smith & Wesson</p>
+                </div>
+                
+                <div class="card-text-wrapper">              
+                  <p class="card-text">Price:</p>
+                  <p class="card-text price">$600.00</p>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="img/gun-img.png" alt="Product Image">
+              <div class="card-body">
+                <h5 class="card-title">SMITH & WESSON</h5>
+                <div class="card-text-wrapper">
+                  <p class="card-text">Mfg: </p>
+                  <p class="card-text"> Smith & Wesson</p>
+                </div>                
+                <div class="card-text-wrapper">              
+                  <p class="card-text">Price:</p>
+                  <p class="card-text price">$600.00</p>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="img/gun-img.png" alt="Product Image">
+              <div class="card-body">
+                <h5 class="card-title">SMITH & WESSON</h5>
+                <div class="card-text-wrapper">
+                  <p class="card-text">Mfg: </p>
+                  <p class="card-text"> Smith & Wesson</p>
+                </div>                
+                <div class="card-text-wrapper">              
+                  <p class="card-text">Price:</p>
+                  <p class="card-text price">$600.00</p>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <nav aria-label="Page navigation example" class="mt-4">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1" aria-disabled="true"> < </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#"> > </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- ========  END OF LIVE INVENTORY FEED ============= -->
+
+
+    <!-- ===================    Popular brands   ====================== -->
+
+    <section id="popularBrands" class="collection-section">
+      <div class="container">
+        <div class="collection-content">
+          <div class="collection-text">
+            <div id="popularBrandsHeader" class="header">popularBrandsHeader</div>
+            <h2 id="popularBrandsTitle" class="title">popularBrandsTitle</h2>
+            <p id="popularBrandsText">popularBrandsText</p>
+            <button id="popularBrandsBtn" class="btn">popularBrandsBtn</button>
+          </div>
+          <img src="img/img014png.png" alt="Brand Logo" class="brand-logo">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================  END OF  Popular brands   ====================== -->
+
+    <!-- =================== Popular Brands Slider =============================  -->
+    <section id="PopularBrandsSlider">
+    <div class="brands-sec">
+      <div class="container">
+        <!-- <div class="brands-text">
+          <h2>Popular Brands</h2>
+        </div> -->
+        <div class="slider-container">
+          <button class="slide-arrow prev-arrow" onclick="moveSlide(-1)">&#10094;</button>
+          <div class="aboutUS_slider">
+          <div class="popular_brand_img">
+            <img src="img/Glock.png" alt="Lock Brand">
+          </div>
+          <div class="popular_brand_img hideSmallScreen">
+            <img src="img/img015.png" alt="SIG Sauer Brand">
+          </div>
+          <div class="popular_brand_img hideSmallScreen">
+            <img src="img/img016.png" alt="Kimber Brand">
+          </div>
+          <div class="popular_brand_img hideSmallScreen">
+            <img src="img/img017.png" alt="Colt Brand">
+          </div>
+          <div class="popular_brand_img hideSmallScreen">
+            <img src="img/img018.png" alt="SCCY Brand">
+          </div>
+          <div class="popular_brand_img hideSmallScreen">
+            <img src="img/img019.png" alt="SCCY Brand">
+          </div>
+          <button class="slide-arrow next-arrow" onclick="moveSlide(1)">&#10095;</button>
+          <!-- Repeat for other brands -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- =================== END OF Popular Brands Slider =============================  -->
+
+    <!-- ===============   Our Story Banner  ================== -->
+    <section id="OurStoryBanner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 image-container">
+            <!-- The image will be set as a background in the CSS -->
+          </div>
+          <div class="col-md-6">
+            <div class="content">
+              <h2 id="OurStoryBannerTitle"></h2>
+              <p id="OurStoryBannerTextOne"></p>
+              <p id="OurStoryBannerTextTwo"></p>
+              <a id="OurStoryBannerButton" href="#" class="btn btn-primary"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    
+    <!-- ===============  END OF  Our Story Banner  ================== -->
+
+    <!-- ========================= Reviews No Pictures ===================== -->
+<section id="reviewsNoPictures">
+    <div class="review-section">
+      <div class="container">
+        <h2 class="text-center" id="reviewsNoPicturesTitle"></h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-3">
+          <div class="review-card">
+            <h5 id="reviewsNoPicturesNameOne">.</h5>
+            <p id="reviewsNoPicturesReviewOne"></p>
+          </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+          <div class="review-card">
+            <h5 id="reviewsNoPicturesNameTwo"></h5>
+            <p id="reviewsNoPicturesReviewTwo"></p>
+          </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+          <div class="review-card">
+            <h5 id="reviewsNoPicturesNameThree"></h5>
+            <p id="reviewsNoPicturesReviewThree"></p>
+          </div>
+          </div>
+        </div>
+        <div class="read-more">
+          <button class="btn btn-primary" id="reviewsNoPicturesButton"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- ========================= END OF Reviews No Pictures ===================== -->
+
+
+   <!-- ========================= Mailing Sign Up Form ===================== -->
+   <div class="signup-section">
+    <div class="container">
+      <div class="signup-container">
+        <div>Sign up to get the latest news and discounts!</div>
+        <form>
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="col">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="col">
+              <button type="submit" class="btn signup-btn">SIGN UP</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+   <!-- ========================= END OF Mailing Sign Up Form ===================== -->
+
+   <!-- ========================= Footer ===================== -->
+   <footer class="footer">
+    <div class="container">
+      <div class="d-flex justify-content-between footer-flex-container">
+        <div class="footer-column">
+          <img src="img/header-logo.png" alt="Kerper's Gun Shop" class="footer-logo"> 
+        </div>
+   
+        <div class="footer-column">
+          <h5 id="FirstColumnTitle"></h5>
+          <p id="street"></p>
+          <p id="city"></p>
+            <p id="country"></p>
+            <p id="phone"></p>
+          <button class="footer-contact-btn" id="">Contact Us</button>        </div>
+        <div class="footer-column">
+          <h5 id="SecondColumnTitle"></h5>
+          <nav class="nav flex-column">
+            <a class="nav-link" href="#" id="NavOne"></a>
+            <a class="nav-link" href="#" id="NavTwo"></a>
+            <a class="nav-link" href="#" id="NavThree"></a>
+            <a class="nav-link" href="#" id="NavFour"></a>
+            <a class="nav-link" href="#" id="NavFive"></a>
+            <a class="nav-link" href="#" id="NavSix"></a>
+          </nav>
+        </div>
+        <div class="footer-column">
+          <h5 id="ThirdColumnTitle"></h5>
+          <p id="ThirdColumnTextOne"></p>
+            <p id="ThirdColumnTextTwo"></p>
+            <p id="ThirdColumnTextThree"></p><br/>
+            <p id="ThirdColumnTextFour"></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+   <!-- ========================= END OF Footer ===================== -->
+
+      <!-- ========================= SubFooter ===================== -->
+
+      <footer class="subfooter">
+        <div class="container">
+          <div class="subfooter-container">
+            <div class="subfooter-text">
+              ©2024 Designed by Orchid
+            </div>
+            <div class="social-links">
+              <!-- Replace `i` elements with actual icons from your icon library -->
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-youtube" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ========================= END OF SubFooter ===================== -->
+
+
+
+  </main>
+
+
+  <script src="index.js"></script>
+  <script src="popularBrandsSliderimages are withing the arrows.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+
+</html>

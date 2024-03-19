@@ -1,0 +1,168 @@
+:root {
+    --primary: #738578;
+    --primaryDark: #506A68;
+    --primaryLight: #EEE2D8;
+    --secondary: #D99A56;
+    --secondaryDark: #D99A56;
+    --secondaryLight: #E3DFD7;
+    --gray900: #212529;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* System classes:
+-cart 
+-cartWidgetInner 
+
+*/
+
+
+/* !!!!!!!!!General classes!!!!!!!!! */
+.hide {
+    display: none;
+}
+
+/* Text colors */
+.text-color-primary {
+    color: var(--primary);
+}
+
+.text-color-primaryDark {
+    color: var(--primaryDark);
+}
+
+.text-color-primaryLight {
+    color: var(--primaryLight);
+}
+
+.text-color-secondary {
+    color: var(--secondary);
+}
+
+.text-color-secondaryDark {
+    color: var(--secondaryDark);
+}
+
+.text-color-secondaryLight {
+    color: var(--secondaryLight);
+}
+
+.text-color-gray900 {
+    color: var(--gray900);
+}
+
+/* Background colors */
+.background-color-primary {
+    background-color: var(--primary);
+}
+
+.background-color-primaryDark {
+    background-color: var(--primaryDark);
+}
+
+.background-color-primaryLight {
+    background-color: var(--primaryLight);
+}
+
+.background-color-secondary {
+    background-color: var(--secondary);
+}
+
+.background-color-secondaryDark {
+    background-color: var(--secondaryDark);
+}
+
+.background-color-secondaryLight {
+    background-color: var(--secondaryLight);
+}
+
+.background-color-gray900 {
+    background-color: var(--gray900);
+}
+
+
+#slider {
+    z-index: 1;
+}
+
+.carousel-item .item {
+    display: flex;
+    justify-content: center;
+    /* Centers children horizontally */
+    align-items: center;
+    /* height: 30vh;  */
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerText {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    margin-left: -5vw;
+    padding: 10% 2% 10% 2%;
+}
+
+.bannerText h1,
+.bannerText p {
+    font-size: 2vw;
+    /* Example: Scale text size based on the viewport width */
+}
+
+.bannerText .shop-btn {
+    padding: 1vw 2vw;
+    /* Adjust button padding based on viewport size */
+}
+
+
+.carousel-item,
+.item {
+    height: 70vh;
+}
+
+
+.shop-btn {
+    color: var(--primaryLight);
+    text-decoration: none;
+    background-color: transparent;
+    background-color: var(--primaryDark);
+    padding: 15px;
+    border-radius: 5px;
+    float: right;
+}
+
+.carousel-item .item {
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (max-width: 768px) {
+    .hideSmallScreen {
+        display: none;
+    }
+    .carousel-item .item {
+        background-size: fill;
+        background-position: top;
+    }
+
+    .bannerText h1 {
+        font-size: 5vw;
+    }
+
+    .bannerText {
+        width: 90vw;
+
+    }
+
+    .bannerText p {
+        font-size: 4vw;
+    }
+}

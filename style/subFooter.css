@@ -1,0 +1,35 @@
+.subfooter {
+    background-color: #D99A56; /* Customize with your preferred color */
+    color: white;
+    padding: 1rem 0;
+  }
+
+  .subfooter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .subfooter-text {
+    margin-left: 1rem; /* Adjust the margin as needed */
+  }
+
+  .social-links {
+    margin-right: 1rem; /* Adjust the margin as needed */
+  }
+
+  .social-links i {
+    color: white; /* Adjust if you have a specific icon color */
+    margin: 0 0.5rem; /* Adjust spacing between icons as needed */
+    /* Add font-size or other styles for your icons here */
+  }
+
+  @media (max-width: 768px) {
+    .subfooter-container {
+      flex-direction: column;
+    }
+
+    .social-links {
+      margin-top: 1rem;
+    }
+  }

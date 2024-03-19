@@ -1,0 +1,69 @@
+:root {
+    --primary: #738578;
+    --primaryDark: #506A68;
+    --primaryLight: #EEE2D8;
+    --secondary: #D99A56;
+    --secondaryDark: #D99A56;
+    --secondaryLight: #E3DFD7;
+    --gray900: #212529;
+  }
+
+
+  #OurStoryBanner{
+    padding: 4%;
+  }
+  
+  #OurStoryBanner .container {
+    max-width: 1140px;
+    padding: 10px;
+    padding-left: 30px;
+    margin: 0 auto;
+    background-color: var(--secondaryDark);
+    border-radius: 5px;
+  }
+  
+  #OurStoryBanner .image-container {
+    background-image: url('../img/img020.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #OurStoryBanner .content {
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  #OurStoryBanner .content h2 {
+    color: var(--primary);
+    margin-bottom: 20px;
+  }
+  
+  #OurStoryBanner .content p {
+    color: var(--gray900);
+    margin-bottom: 20px;
+  }
+  
+  #OurStoryBanner .btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+  #OurStoryBanner .btn-primary:hover {
+    background-color: var(--secondary);
+   
+  }
+  
+  /* Ensuring responsiveness */
+  @media (max-width: 991.98px) {
+    #OurStoryBanner .content {
+      margin-top: 20px;
+    }
+    
+    #OurStoryBanner .image-container {
+      height: 40vh; 
+      max-width: 85vw;
+    }
+  }
+  

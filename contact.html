@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Website</title>
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="./style/main.css">
+
+  <link rel="stylesheet" href="./style/footer.css">
+  <link rel="stylesheet" href="./style/subFooter.css">
+  <link rel="stylesheet" href="./style/contact.css">
+
+
+</head>
+
+<body>
+  <main>
+
+    <!-- Secondary Header -->
+
+    <div class="secondaryHeader">
+      <div class="hours">
+        <p id="hours"></p>
+      </div>
+      <div class="phone">
+        <p id="phone"></p>
+      </div>
+      <div class="socials">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </div>
+      <div class="accountwrapper">
+        <div class="account dropdown ">
+          <a class="dropdown-toggle text-color-gray900 pr-2" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My Account
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#myModal">Register <span><i
+                  class="fa fa-edit"></i></span></a>
+            <a class="dropdown-item" href="#">Login <span><i class="fa fa-lock"></i></span></a>
+          </div>
+        </div>
+        <div class="account dropdown "> <!-- Big Screen only -->
+          <a class="dropdown-toggle text-color-gray900" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cart
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul class="submenu product_list_widget text-left">
+              <!-- .product item -->
+              <li>
+                <a href="#" class="thumb">
+                  <imgclass="submenuimg" src="img/product-1.png" alt="">
+                </a>
+                <div class="pdDesc">
+                  <a href="#">Cool Item 1</a>
+                  <a href="#" class="remove">x</a>
+                  <div class="variation">
+                    <strong>Size :</strong> <span>Small</span>
+                  </div>
+                  <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="thumb">
+                  <img src="img/product-1.png" alt="">
+                </a>
+                <div class="pdDesc">
+                  <a href="#">Cool Item 1</a>
+                  <a href="#" class="remove">x</a>
+                  <div class="variation">
+                    <strong>Size :</strong> <span>Small</span>
+                  </div>
+                  <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="thumb">
+                  <img src="img/product-1.png" alt="">
+                </a>
+                <div class="pdDesc">
+                  <a href="#">Cool Item 1</a>
+                  <a href="#" class="remove">x</a>
+                  <div class="variation">
+                    <strong>Size :</strong> <span>Small</span>
+                  </div>
+                  <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                </div>
+              </li>
+              <!-- // .product item -->
+              <!-- .product item -->
+
+
+              <!-- // product list -->
+              <li class="total">
+                <span>Subtotal: </span>
+                <span class="amount">&nbsp;$1875.00</span>
+              </li>
+              <li class="buttons ">
+                <a href="#" class="btn btn-gold-border background-color-primaryLight">View Cart</a>
+                <a href="#" class="btn btn-gold-border background-color-primaryLight">Checkout</a>
+              </li>
+              <!-- // .product item -->
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <!-- ===============  Main Menu  ===================== -->
+    <nav class="navbar navbar-expand-lg  background-color-primaryDark ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/header-logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <!-- Left nav -->
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" id="navOptionOne"> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionTwo"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionThree"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ccforwomen.html" id="navOptionFour"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionFive"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="archery.html" id="navOptionSix"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" id="navOptionSeven"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html" id="navOptionEight"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" id="navOptionNine"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" id="navOptionTen"></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="" class="nav-link" data-toggle="modal" data-target="#searchModal"><i
+                  class="fa fa-search"></i></a>
+            </li>
+          </ul>
+
+          <!-- Small sreen only -->
+          <div class="account dropdown d-lg-none">
+            <a class="dropdown-toggle text-color-gray900" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Cart
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <ul class="submenu product_list_widget text-left">
+                <!-- .product item -->
+                <li>
+                  <a href="#" class="thumb">
+                    <imgclass="submenuimg" src="img/product-1.png" alt="">
+                  </a>
+                  <div class="pdDesc">
+                    <a href="#">Cool Item 1</a>
+                    <a href="#" class="remove">x</a>
+                    <div class="variation">
+                      <strong>Size :</strong> <span>Small</span>
+                    </div>
+                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="thumb">
+                    <img src="img/product-1.png" alt="">
+                  </a>
+                  <div class="pdDesc">
+                    <a href="#">Cool Item 1</a>
+                    <a href="#" class="remove">x</a>
+                    <div class="variation">
+                      <strong>Size :</strong> <span>Small</span>
+                    </div>
+                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="thumb">
+                    <img src="img/product-1.png" alt="">
+                  </a>
+                  <div class="pdDesc">
+                    <a href="#">Cool Item 1</a>
+                    <a href="#" class="remove">x</a>
+                    <div class="variation">
+                      <strong>Size :</strong> <span>Small</span>
+                    </div>
+                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                  </div>
+                </li>
+                <!-- // .product item -->
+                <!-- .product item -->
+
+
+                <!-- // product list -->
+                <li class="total">
+                  <span>Subtotal: </span>
+                  <span class="amount">&nbsp;$1875.00</span>
+                </li>
+                <li class="buttons ">
+                  <a href="#" class="btn btn-gold-border background-color-primaryLight">View Cart</a>
+                  <a href="#" class="btn btn-gold-border background-color-primaryLight">Checkout</a>
+                </li>
+                <!-- // .product item -->
+              </ul>
+            </div>
+          </div>
+          <!-- END OF Small sreen only -->
+
+
+        </div>
+      </div>
+    </nav>
+
+
+
+<!--    ==================   Contact Form  ======================= -->
+
+        
+        <!-- Contact Section -->
+        <div class="contact-section my-5">
+          <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="First Name">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Send Message</button>
+            </form>
+          </div>
+          
+          <div class="contact-info">
+            <h2>Contact Info</h2>
+            <address>
+              Address 1<br>
+              City, State, ZIP<br>
+              United States<br>
+              [123] 456-7890
+            </address>
+            <p>
+              <strong>Hours</strong><br>
+              [Please send store hours]<br>
+              Monday - Saturday<br>
+              10am - 6pm<br>
+              Closed on Sunday
+            </p>
+            <!-- Social icons can go here with proper links -->
+          </div>
+        </div>
+      </div>
+
+      <!-- ========= END OF Contact Form ============ -->
+
+
+
+
+
+ 
+
+   <!-- ========================= Footer ===================== -->
+   <footer class="footer">
+    <div class="container">
+      <div class="d-flex justify-content-between footer-flex-container">
+        <div class="footer-column">
+          <img src="img/header-logo.png" alt="Kerper's Gun Shop" class="footer-logo"> 
+        </div>
+   
+        <div class="footer-column">
+          <h5 id="FirstColumnTitle"></h5>
+          <p id="street"></p>
+            <p id="country"></p>
+            <p id="phone"></p>
+          <button class="footer-contact-btn" id="">Contact Us</button>        </div>
+        <div class="footer-column">
+          <h5 id="SecondColumnTitle"></h5>
+          <nav class="nav flex-column">
+            <a class="nav-link" href="#" id="NavOne"></a>
+            <a class="nav-link" href="#" id="NavTwo"></a>
+            <a class="nav-link" href="#" id="NavThree"></a>
+            <a class="nav-link" href="#" id="NavFour"></a>
+            <a class="nav-link" href="#" id="NavFive"></a>
+            <a class="nav-link" href="#" id="NavSix"></a>
+          </nav>
+        </div>
+        <div class="footer-column">
+          <h5 id="ThirdColumnTitle"></h5>
+          <p id="ThirdColumnTextOne"></p>
+            <p id="ThirdColumnTextTwo"></p>
+            <p id="ThirdColumnTextThree"></p>
+            <p id="ThirdColumnTextFour"></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+   <!-- ========================= END OF Footer ===================== -->
+
+      <!-- ========================= SubFooter ===================== -->
+
+      <footer class="subfooter">
+        <div class="container">
+          <div class="subfooter-container">
+            <div class="subfooter-text">
+              ©2024 Designed by Orchid
+            </div>
+            <div class="social-links">
+              <!-- Replace `i` elements with actual icons from your icon library -->
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ========================= END OF SubFooter ===================== -->
+
+
+
+  </main>
+
+
+  <script src="index.js"></script>
+  <script src="popularBrandsSliderimages are withing the arrows.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+
+</html>

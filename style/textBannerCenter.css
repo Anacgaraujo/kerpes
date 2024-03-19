@@ -1,0 +1,28 @@
+:root {
+    --primary: #738578;
+    --primaryDark: #506A68;
+    --primaryLight: #EEE2D8;
+    --secondary: #D99A56;
+    --secondaryDark: #D99A56;
+    --secondaryLight: #E3DFD7;
+    --gray900: #212529;
+  }
+
+  #textBannerCenter{
+    background-color: var(--secondaryLight);
+    padding: 3%;
+    text-align: center;
+  }
+
+  #textBannerCenter .container{
+    background-color: var(--secondaryDark);
+    padding: 2%;
+    border-radius: 5px;
+  }
+
+  #textBannerCenter a{
+    background-color: #212529;
+    color: var(--primaryLight);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+  }

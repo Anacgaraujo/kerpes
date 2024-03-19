@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/slider.css">
+    <link rel="stylesheet" href="./style/textWithSlider.css">
+    <link rel="stylesheet" href="./style/simpleTextBanner.css">
+    <link rel="stylesheet" href="./style/popularBrandsSlider.css">
+    <link rel="stylesheet" href="./style/ourStorybanner.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/subFooter.css">
+    <link rel="stylesheet" href="./style/kerpers.css">
+
+
+</head>
+
+<body>
+    <main>
+
+        <!-- Secondary Header -->
+
+        <div class="secondaryHeader">
+            <div class="hours">
+                <p id="hours"></p>
+            </div>
+            <div class="phone">
+                <p id="phone"></p>
+            </div>
+            <div class="socials">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <div class="accountwrapper">
+                <div class="account dropdown ">
+                    <a class="dropdown-toggle text-color-gray900 pr-2" href="#" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        My Account
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#myModal">Register <span><i
+                                    class="fa fa-edit"></i></span></a>
+                        <a class="dropdown-item" href="#">Login <span><i class="fa fa-lock"></i></span></a>
+                    </div>
+                </div>
+                <div class="account dropdown "> <!-- Big Screen only -->
+                    <a class="dropdown-toggle text-color-gray900" href="#" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cart
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <ul class="submenu product_list_widget text-left">
+                            <!-- .product item -->
+                            <li>
+                                <a href="#" class="thumb">
+                                    <imgclass="submenuimg" src="img/product-1.png" alt="">
+                                </a>
+                                <div class="pdDesc">
+                                    <a href="#">Cool Item 1</a>
+                                    <a href="#" class="remove">x</a>
+                                    <div class="variation">
+                                        <strong>Size :</strong> <span>Small</span>
+                                    </div>
+                                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="thumb">
+                                    <img src="img/product-1.png" alt="">
+                                </a>
+                                <div class="pdDesc">
+                                    <a href="#">Cool Item 1</a>
+                                    <a href="#" class="remove">x</a>
+                                    <div class="variation">
+                                        <strong>Size :</strong> <span>Small</span>
+                                    </div>
+                                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="thumb">
+                                    <img src="img/product-1.png" alt="">
+                                </a>
+                                <div class="pdDesc">
+                                    <a href="#">Cool Item 1</a>
+                                    <a href="#" class="remove">x</a>
+                                    <div class="variation">
+                                        <strong>Size :</strong> <span>Small</span>
+                                    </div>
+                                    <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                                </div>
+                            </li>
+                            <!-- // .product item -->
+                            <!-- .product item -->
+
+
+                            <!-- // product list -->
+                            <li class="total">
+                                <span>Subtotal: </span>
+                                <span class="amount">&nbsp;$1875.00</span>
+                            </li>
+                            <li class="buttons ">
+                                <a href="#" class="btn btn-gold-border background-color-primaryLight">View Cart</a>
+                                <a href="#" class="btn btn-gold-border background-color-primaryLight">Checkout</a>
+                            </li>
+                            <!-- // .product item -->
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- ===============  Main Menu  ===================== -->
+        <nav class="navbar navbar-expand-lg  background-color-primaryDark ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/header-logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <!-- Left nav -->
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html" id="navOptionOne"> <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="shop.html" id="navOptionTwo"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="shop.html" id="navOptionThree"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="ccforwomen.html" id="navOptionFour"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="shop.html" id="navOptionFive"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="archery.html" id="navOptionSix"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="shop.html" id="navOptionSeven"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="services.html" id="navOptionEight"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html" id="navOptionNine"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html" id="navOptionTen"></a>
+                        </li>
+                      </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="" class="nav-link" data-toggle="modal" data-target="#searchModal"><i
+                                    class="fa fa-search"></i></a>
+                        </li>
+                    </ul>
+
+                    <!-- Small sreen only -->
+                    <div class="account dropdown d-lg-none">
+                        <a class="dropdown-toggle text-color-gray900" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cart
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <ul class="submenu product_list_widget text-left">
+                                <!-- .product item -->
+                                <li>
+                                    <a href="#" class="thumb">
+                                        <imgclass="submenuimg" src="img/product-1.png" alt="">
+                                    </a>
+                                    <div class="pdDesc">
+                                        <a href="#">Cool Item 1</a>
+                                        <a href="#" class="remove">x</a>
+                                        <div class="variation">
+                                            <strong>Size :</strong> <span>Small</span>
+                                        </div>
+                                        <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="thumb">
+                                        <img src="img/product-1.png" alt="">
+                                    </a>
+                                    <div class="pdDesc">
+                                        <a href="#">Cool Item 1</a>
+                                        <a href="#" class="remove">x</a>
+                                        <div class="variation">
+                                            <strong>Size :</strong> <span>Small</span>
+                                        </div>
+                                        <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="thumb">
+                                        <img src="img/product-1.png" alt="">
+                                    </a>
+                                    <div class="pdDesc">
+                                        <a href="#">Cool Item 1</a>
+                                        <a href="#" class="remove">x</a>
+                                        <div class="variation">
+                                            <strong>Size :</strong> <span>Small</span>
+                                        </div>
+                                        <span class="quantity">1 × <span class="amount">$625.00</span></span>
+                                    </div>
+                                </li>
+                                <!-- // .product item -->
+                                <!-- .product item -->
+
+
+                                <!-- // product list -->
+                                <li class="total">
+                                    <span>Subtotal: </span>
+                                    <span class="amount">&nbsp;$1875.00</span>
+                                </li>
+                                <li class="buttons ">
+                                    <a href="#" class="btn btn-gold-border background-color-primaryLight">View Cart</a>
+                                    <a href="#" class="btn btn-gold-border background-color-primaryLight">Checkout</a>
+                                </li>
+                                <!-- // .product item -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- END OF Small sreen only -->
+
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- ===============  Text with Slider  ===================== -->
+
+        <div class="container" style="padding-bottom: 40px;">
+            <div class="service-section">
+                <div class="service-content">
+                    <h2 id="">Archery at Kerper’s</h2>
+                    <p id="">Archery at Kerper’s is a division of Kerper’s Gun Shop LLC and offers a wide variety of
+                        archery supplies as well as on site repair work. Stop in and check out our selection
+                        of Crossbows, Compound Bows and Bow Fishing supplies.</p>
+                    <p id="">We also offer a video shooting range (no crossbows please) for up to 6 shooters at a time.
+                        Call today to reserve your time.<br /><br />
+
+                        - 15 Minutes – $8 per person<br />
+                        - 30 Minutes – $10 per person<br />
+                        - 60 Minutes – $18 per person<br /><br />
+
+                        Our brands include Elite, Barnett, Ten Point, Rage, Lumenok, G5, Grim Reaper and many more.Thank
+                        you!</p>
+                </div>
+                <div class="service-slider">
+                    <!-- Bootstrap Carousel -->
+                    <div id="serviceCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#serviceCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#serviceCarousel" data-slide-to="1"></li>
+                            <li data-target="#serviceCarousel" data-slide-to="2"></li>
+                            <li data-target="#serviceCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="height: 38vh;">
+                                <img src="img/img001.png" class="d-block w-100" alt="Image 1">
+                            </div>
+                            <div class="carousel-item" style="height: 38vh;">
+                                <img src="img/img001.png" class="d-block w-100" alt="Image 2">
+                            </div>
+                            <div class="carousel-item" style="height: 38vh;">
+                                <img src="img/img001.png" class="d-block w-100" alt="Image 2">
+                            </div>
+                            <div class="carousel-item" style="height: 38vh;">
+                                <img src="img/img001.png" class="d-block w-100" alt="Image 2">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Bootstrap Carousel -->
+                </div>
+            </div>
+        </div>
+
+
+        <!-- =============== END OF Text with Slider  ===================== -->
+
+
+        <!-- =============== Simple text Banner    ===================== -->
+
+        <section id="simpleTextBanner">
+
+            <div class="container">
+                <h3>
+                    Popular Brands
+                </h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </section>
+
+
+        <!-- =============== END OF Simple Banner With text ===================== -->
+
+
+
+        <!-- =================== Popular Brands Slider =============================  -->
+        <section id="PopularBrandsSlider">
+            <div class="brands-sec">
+                <div class="container">
+
+                    <div class="slider-container">
+                        <button class="slide-arrow prev-arrow" onclick="moveSlide(-1)">&#10094;</button>
+                        <div class="aboutUS_slider">
+                            <div class="popular_brand_img">
+                                <img src="img/img07.png" alt="Lock Brand">
+                            </div>
+                            <div class="popular_brand_img hideSmallScreen">
+                                <img src="img/img08.png" alt="SIG Sauer Brand">
+                            </div>
+                            <div class="popular_brand_img hideSmallScreen">
+                                <img src="img/img09.png" alt="Kimber Brand">
+                            </div>
+                            <div class="popular_brand_img hideSmallScreen">
+                                <img src="img/img010.png" alt="Colt Brand">
+                            </div>
+                            <div class="popular_brand_img hideSmallScreen">
+                                <img src="img/img011.png" alt="SCCY Brand">
+                            </div>
+                            <div class="popular_brand_img hideSmallScreen">
+                                <img src="img/img012.png" alt="SCCY Brand">
+                            </div>
+                            <button class="slide-arrow next-arrow" onclick="moveSlide(1)">&#10095;</button>
+                            <!-- Repeat for other brands -->
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <!-- =================== END OF Popular Brands Slider =============================  -->
+
+        <!-- ===============   Our Story Banner  ================== -->
+        <section id="OurStoryBanner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 image-container">
+                        <!-- The image will be set as a background in the CSS -->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <h2 id="" style="color: #212529;">Bow Service</h2>
+                            <p id="">- Labor Rate – $45 per hour<br/>
+                                - Bow setup – $40 (rest, right, draw length & weight)<br/>
+                                - Basic bow tune up – $35 plus parts as needed<br/>
+                                - New Strings and Cables<br/>
+                                - Compounds – $140-$170 per set<br/>
+                                - Crossbow – $100 per set<br/>
+                                - Lube bow/pockets – $40<br/>
+                                - Reserve center/cable – $30/$35<br/>
+                                - Paper tune/Laser tune – $10 each<br/>
+                                - Tie in peep – $8<br/>
+                                - String loop – $7<br/>
+                                - Kisser button – $5<br/>
+                                - Cat Whiskers – $10<br/>
+                                - Bore sight crossbow – $5<br/>
+                                - Re-fletch arrow – $4 each<br/>
+                                - Cut down arrows – $2 per 1/2 dozen<br/>
+                                - Please note – We do our best to make sure your bow is ready for pick up as soon as
+                                possible, but due to inventory and staff shortages, service time may be extended a
+                                couple of days.<br/>
+                                - All string sets are ordered through VaporTrail on an as needed basis. Normally, we will
+                                have them within a week of ordering, but the closer it gets to archery season the longer
+                                it may take.</p>
+                            <!-- <p id="OurStoryBannerTextTwo"></p> -->
+                            <!-- <a id="OurStoryBannerButton" href="#" class="btn btn-primary"></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ===============  END OF  Our Story Banner  ================== -->
+
+
+
+
+
+        <!-- ========================= Footer ===================== -->
+        <footer class="footer">
+            <div class="container">
+                <div class="d-flex justify-content-between footer-flex-container">
+                    <div class="footer-column">
+                        <img src="img/header-logo.png" alt="Kerper's Gun Shop" class="footer-logo">
+                    </div>
+
+                    <div class="footer-column">
+                        <h5 id="FirstColumnTitle"></h5>
+                        <p id="street"></p>
+                        <p id="country"></p>
+                        <p id="phone"></p>
+                        <button class="footer-contact-btn" id="">Contact Us</button>
+                    </div>
+                    <div class="footer-column">
+                        <h5 id="SecondColumnTitle"></h5>
+                        <nav class="nav flex-column">
+                            <a class="nav-link" href="#" id="NavOne"></a>
+                            <a class="nav-link" href="#" id="NavTwo"></a>
+                            <a class="nav-link" href="#" id="NavThree"></a>
+                            <a class="nav-link" href="#" id="NavFour"></a>
+                            <a class="nav-link" href="#" id="NavFive"></a>
+                            <a class="nav-link" href="#" id="NavSix"></a>
+                        </nav>
+                    </div>
+                    <div class="footer-column">
+                        <h5 id="ThirdColumnTitle"></h5>
+                        <p id="ThirdColumnTextOne"></p>
+                        <p id="ThirdColumnTextTwo"></p>
+                        <p id="ThirdColumnTextThree"></p>
+                        <p id="ThirdColumnTextFour"></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ========================= END OF Footer ===================== -->
+
+        <!-- ========================= SubFooter ===================== -->
+
+        <footer class="subfooter">
+            <div class="container">
+                <div class="subfooter-container">
+                    <div class="subfooter-text">
+                        ©2024 Designed by Orchid
+                    </div>
+                    <div class="social-links">
+                        <!-- Replace `i` elements with actual icons from your icon library -->
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ========================= END OF SubFooter ===================== -->
+
+
+
+    </main>
+
+
+    <script src="index.js"></script>
+    <script src="popularBrandsSliderimages are withing the arrows.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,50 @@
+#PopularBrandsSlider .brands-sec {
+    padding: 20px;
+    background-color: #E3DFD7;
+  }
+  
+  #PopularBrandsSlider .brands-text h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #PopularBrandsSlider .slider-container {
+    position: relative;
+  }
+  
+  #PopularBrandsSlider  .aboutUS_slider {
+    display: flex;
+    overflow-x: auto;
+    Justify-content: space-around;
+  }
+  
+  #PopularBrandsSlider .popular_brand_img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  #PopularBrandsSlider .popular_brand_img {
+    flex: 0 1 auto;
+    margin: 5px;
+  }
+  
+  #PopularBrandsSlider .slide-arrow {
+    position: absolute;
+    top: 50%;
+    background-color: #E3DFD7;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  #PopularBrandsSlider .prev-arrow {
+    left: 0;
+  }
+  
+  #PopularBrandsSlider .next-arrow {
+    right: 0;
+  }
+  

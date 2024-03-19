@@ -1,0 +1,53 @@
+:root {
+    --primary: #738578;
+    --primaryDark: #506A68;
+    --primaryLight: #EEE2D8;
+    --secondary: #D99A56;
+    --secondaryDark: #D99A56;
+    --secondaryLight: #E3DFD7;
+    --gray900: #212529;
+}
+
+#textWithImage .content-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#textWithImage .text-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 10px;
+}
+
+#textWithImage .text-container h2 {
+    color: var(--primary);
+}
+
+#textWithImage .text-container p {
+    color: #212529;
+    font-size: 0.8rem;
+}
+
+#textWithImage .image-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 10px;
+    text-align: center;
+}
+
+#textWithImage .image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid var(--primary);
+}
+
+@media (max-width: 768px) {
+    #textWithImage .content-section {
+        flex-direction: column;
+    }
+}

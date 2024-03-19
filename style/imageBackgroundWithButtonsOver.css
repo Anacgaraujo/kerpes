@@ -1,0 +1,139 @@
+:root {
+    --primary: #738578;
+    --primaryDark: #506A68;
+    --primaryLight: #EEE2D8;
+    --secondary: #D99A56;
+    --secondaryDark:#D99A56;
+    --secondaryLight: #E3DFD7;
+    --gray900: #212529;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body{
+    background-color: var(--secondaryLight);;
+}
+
+/* System classes:
+-cart 
+-cartWidgetInner 
+
+*/
+
+
+/* !!!!!!!!!General classes!!!!!!!!! */
+.hide{
+    display: none;
+}
+
+/* Text colors */
+.text-color-primary{
+    color: var(--primary);
+}
+.text-color-primaryDark{
+    color: var(--primaryDark);
+}
+.text-color-primaryLight{
+    color: var(--primaryLight);
+}
+.text-color-secondary{
+    color: var(--secondary);
+}
+.text-color-secondaryDark{
+    color: var(--secondaryDark);
+}
+.text-color-secondaryLight{
+    color: var(--secondaryLight);
+}
+.text-color-gray900{
+    color: var(--gray900);
+}
+
+/* Background colors */
+.background-color-primary{
+    background-color: var(--primary);
+}
+.background-color-primaryDark{
+    background-color: var(--primaryDark);
+}
+.background-color-primaryLight{
+    background-color: var(--primaryLight);
+}
+.background-color-secondary{
+    background-color: var(--secondary);
+}
+.background-color-secondaryDark{
+    background-color: var(--secondaryDark);
+}
+.background-color-secondaryLight{
+    background-color: var(--secondaryLight);
+}
+.background-color-gray900{
+    background-color: var(--gray900);
+}
+
+
+.imageBackgroundWithButtonsOverWrapper {
+  position: relative;
+  height: 60vh; 
+  margin: 0;
+  overflow: visible; 
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: 0;
+}
+
+.menu-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+  z-index: 2; 
+
+.menu-item {
+  background-color: var(--primaryDark);
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  width: auto;
+  text-align: left;
+  cursor: pointer;
+  z-index: 3; 
+  width: 270px;
+}
+.menu-item:hover {
+  background-color: var(--primary);
+
+}
+
+@media (max-width: 768px) {
+  .menu-overlay {
+    padding-left: 20px;
+  }
+  .menu-item {
+    font-size: 16px;
+  }
+}
+}

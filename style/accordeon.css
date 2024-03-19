@@ -1,0 +1,40 @@
+:root {
+  --primary: #738578;
+  --primaryDark: #506A68;
+  --primaryLight: #EEE2D8;
+  --secondary: #D99A56;
+  --secondaryDark: #D99A56;
+  --secondaryLight: #E3DFD7;
+  --gray900: #212529;
+}
+body{
+  background-color: #506A68;
+}
+
+#accordeon {
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  color: var(--secondaryLight);
+  background-color: var(--primaryDark);
+ }
+
+ #accordeon .accordion .card-header {
+    background-color: var(--secondary);
+    cursor: pointer;
+    color: #506A68;
+    font-weight: bold;
+  }
+  #accordeon .accordion .card-header .collapsed .fa {
+    transform: rotate(0);
+  }
+  #accordeon .accordion .card-header .fa {
+    transform: rotate(180deg); 
+    transition: transform 0.25s ease-in-out;
+  }
+  #accordeon  .accordion .card {
+    border: none;
+  }
+  #accordeon .accordion .card-body {
+    border: 6px solid var(--secondary);
+    background-color: var(--primaryDark);
+  }

@@ -1,0 +1,53 @@
+#PopularBrandsSlider .brands-sec {
+    background-color: rgba(115, 133, 120, 64%);
+}
+  
+  #PopularBrandsSlider .popular_brand_img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #PopularBrandsSlider .popular_brand_img {
+    flex: 0 1 16%; 
+    margin: 5px;
+    box-sizing: border-box; 
+    max-width: 90%;  
+}
+
+
+  
+  #PopularBrandsSlider .slide-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    background-color: #E3DFD7;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+    padding: 0 0.5% 0 0.5%;
+  }
+  
+  #OurStoryBanner .image-container {
+    background-image: url('../img/img013.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  
+  @media (max-width: 768px) {
+    #PopularBrandsSlider .popular_brand_img,
+    #PopularBrandsSlider .popular_brand_img.hideSmallScreen {
+      flex: 0 1 33%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #PopularBrandsSlider .popular_brand_img,
+    #PopularBrandsSlider .popular_brand_img.hideSmallScreen {
+      flex: 0 1 50%; 
+    }
+  }
+  
